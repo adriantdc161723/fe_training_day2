@@ -12,6 +12,9 @@ import {
     AccordionIcon
   } from '@chakra-ui/react';
 
+//icons
+
+
 const Sidebar = () => {
     return (
         <aside className="sidebar">
@@ -23,7 +26,7 @@ const Sidebar = () => {
                     <h2>
                     <AccordionButton>
                         <Box flex='1' textAlign='left' fontWeight='bolder'>
-                        Educational Background
+                            <span className="sidebar-icon"><i className="fa-sharp fa-solid fa-graduation-cap"></i></span>Educational Background
                         </Box>
                         <AccordionIcon />
                     </AccordionButton>
@@ -38,7 +41,10 @@ const Sidebar = () => {
                     <h2>
                     <AccordionButton>
                         <Box flex='1' textAlign='left' fontWeight='bolder'>
-                            Work Experience
+                        <span className="sidebar-icon">
+                            <i className="fa-solid fa-briefcase"></i>
+                        </span>
+                        Work Experience
                         </Box>
                         <AccordionIcon />
                     </AccordionButton>
@@ -52,6 +58,9 @@ const Sidebar = () => {
                     <h2>
                     <AccordionButton>
                         <Box flex='1' textAlign='left' fontWeight='bolder'>
+                            <span className="sidebar-icon">
+                                <i className="fa-brands fa-square-js"></i>
+                            </span>
                             Text Stack
                         </Box>
                         <AccordionIcon />
@@ -66,6 +75,9 @@ const Sidebar = () => {
                     <h2>
                     <AccordionButton>
                         <Box flex='1' textAlign='left' fontWeight='bolder'>
+                            <span className="sidebar-icon">
+                                <i className="fa-solid fa-quote-left"></i>
+                            </span>
                             Motto
                         </Box>
                         <AccordionIcon />

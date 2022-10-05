@@ -2,9 +2,16 @@
     display: block;
     position: fixed;
     background-color: white;
-    border-right: 1px solid rgb(226, 226, 226);
+    /* border-right: 1px solid rgb(226, 226, 226); */
     height: 100%;
     width: 300px;
     top: 0;
     left: 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.sidebar-icon{
+    display: inline-block;
+    min-width: 36px;
+    text-align: center;
 }
