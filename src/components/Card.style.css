@@ -1,0 +1,54 @@
+.pokemon-card{
+    width: 300px;
+    background-color: rgb(255, 229, 193);
+    border-radius: .5em;
+    padding: 1em;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.23);
+}
+
+.pokemon-main{
+    position: relative;
+    /* border: 1px dashed black; */
+}
+
+.pokemon-name{
+    font-weight: bolder;
+}
+
+.pokemon-hp, .pokemon-mana{
+    float: right;
+    font-weight: bold;
+    color: rgb(225, 76, 76);
+    margin-left: 1em;
+}
+
+.pokemon-mana{
+    color: rgb(78, 78, 222);
+}
+
+
+
+.pokemon-img-con{
+    height: 150px;
+    width: 100%;
+    /* border: 1px dashed red; */
+    background-image: url(https://i0.wp.com/www.alphr.com/wp-content/uploads/2016/07/whos_that_pokemon.png?fit=1920%2C1080&ssl=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pokemon-skills{
+
+}
+
+
+.pokemon-skills ul{
+    padding-left: 0;
+    height: 20px;
+}
+
+.pokemon-skills ul li{
+    margin-top: 0;
+    list-style: none;
+    float: left;
+}
